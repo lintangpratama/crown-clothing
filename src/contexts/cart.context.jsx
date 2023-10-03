@@ -72,7 +72,6 @@ export const CartProvider = ({ children }) => {
       0
     );
     setCartTotal(newCartTotal);
-    console.log(newCartTotal);
   }, [cartItems]);
 
   const value = {
